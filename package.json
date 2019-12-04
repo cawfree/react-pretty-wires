@@ -1,0 +1,36 @@
+{
+  "name": "react-pretty-wires",
+  "version": "0.0.1",
+  "description": "Prettified wires for React.",
+  "main": "dist/PrettyWire.web.js",
+  "repository": "https://github.com/cawfree/react-pretty-wires",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "svg",
+    "react",
+    "react-native",
+    "react-native-web",
+    "wire",
+    "wires"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./lib --out-dir ./dist"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run-script build"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "husky": "^3.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0"
+  }
+}
