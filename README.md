@@ -1,5 +1,5 @@
 # react-pretty-wires
-Prettified wires for React. Display visual relationships with some flare 🔥🔥🔥.
+[NoFlo's](https://github.com/noflo/noflo) Prettified wires for React. Display visual relationships with some flare 🔥🔥🔥.
 
 ## 🚀 Getting Started
 
